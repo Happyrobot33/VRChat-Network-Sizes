@@ -49,7 +49,7 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         # Upload entire repository
-        path: 'release/wwwroot'
+        path: 'release/wwwroot/.'
       
     - name: Commit wwwroot to GitHub Pages
       uses: actions/deploy-pages@v4
